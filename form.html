@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Servey form</title>
+        <style>
+            body{
+                margin: 20px;
+            }
+            .one{
+                font-style:oblique;
+                color: grey;
+            }
+            #name{
+                font-size: 20px;
+                margin-left: 10px;
+            
+            
+            }
+            #fname{
+                margin-right: 20px;
+                margin-left: 10px;
+                margin-bottom: 20px;
+            }
+            .two{
+                border: dotted 2px gray;
+            }
+            #email{
+                font-size: 20px;
+                margin-left: 10px;
+            
+            }
+            #mail{
+                margin-left: 10px;
+                width: 25%;
+            }
+            .four{
+                margin-left: 10px;
+            }
+            .five{
+                margin-bottom: 0px;
+            }
+            .six{
+                font-size: 13px;
+                margin-top: 2px;
+            }
+            .seven{
+                font-size: 20px;
+    
+            }
+            #textarea{
+                width: 100%;
+            }
+            .nine{
+                font-size: 20px;
+            }
+            .eleven{
+                color: orangered;
+            }
+            table{
+                width: 100%;
+            }
+             td{
+                 text-align: center;
+                 font-size: 18px;
+             }
+             tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#ta{
+    width: 100%;
+}
+.thirteen{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+        
+            
+
+        </style>
+    </head>
+    <body>
+        <h2 class="one">Survey Form</h2>
+        <hr style="color: gray;">
+        <form>
+            <div class="two">
+            <label for="fname" id="name" >Name</label><br><br>
+            <input type="text" id="fname" name="fname" value="First">
+            <input type="text" id="lname" name="lname" value="Last">
+            </div>
+            <br><br>
+            <div class="three">
+                <label for="email" id="email">Email</label><br>
+                <input type="email" name="email" id="mail">
+            </div>
+            <div class="four">
+                <h3 class="five">Your Experience</h3>
+                <span class="fa fa-star checked" style="color: orangered;"></span>
+<span class="fa fa-star checked" style="color: orangered;"></span>
+<span class="fa fa-star checked" style="color: orangered;"></span>
+<span class="fa fa-star checked" style="color: orangered;"></span>
+<span class="fa fa-star" style="color: orangered;"></span>
+<br>
+<p class="six"> overall how would you rate your experience with us?</p>
+            </div>
+            <div class="seven">
+                <br>
+                <p><b>How can we improved?</b></p>
+                <textarea name="message" id="textarea" rows="3" columns="10"></textarea>
+            </div>
+            <div class="eight">
+                <b><p class="nine">How satisfied are you with</p></b>
+                <div class="ten">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Very unsatisfied</th>
+                            <th>unsatisfied</th>
+                            <th>neutral</th>
+                            <th>satisfied</th>
+                            <th>very satisfied</th>
+                        </tr>
+                        <tr>
+                            <td>Purchase</td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                        </tr>
+                        <tr>
+                            <td>Company</td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                        </tr>
+                        <tr>
+                            <td>Overall</td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                            <td><input type="radio" name="purchase"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+               <div class="twelve">
+                   <p class="thirteen">Additional commenta or suggestion</p>
+                   <textarea name="textarea" id="ta" rows="5" columns="10"></textarea>
+               </div>
+        </form>
+    </body>
+</html>
